@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Qual seu apontamento v2ray? ex: 5: " vaga
+read -p "Qual seu apontamento v2ray? ex: 5 => " vaga
 
 if [[ ! "$vaga" =~ ^[0-9]+$ ]]; then
     echo "Erro: Você deve inserir um número válido."
